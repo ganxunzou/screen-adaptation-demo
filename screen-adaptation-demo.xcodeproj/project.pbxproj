@@ -15,6 +15,8 @@
 		807F51AB21B7639200D962FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 807F51AA21B7639200D962FE /* main.m */; };
 		807F51B521B7639200D962FE /* screen_adaptation_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 807F51B421B7639200D962FE /* screen_adaptation_demoTests.m */; };
 		807F51C021B7639200D962FE /* screen_adaptation_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 807F51BF21B7639200D962FE /* screen_adaptation_demoUITests.m */; };
+		80A157FC21B8ECE300B24C4F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A157FB21B8ECE300B24C4F /* WebKit.framework */; };
+		80A157FF21B8ED0B00B24C4F /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A157FE21B8ED0B00B24C4F /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		807F51BB21B7639200D962FE /* screen-adaptation-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "screen-adaptation-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		807F51BF21B7639200D962FE /* screen_adaptation_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = screen_adaptation_demoUITests.m; sourceTree = "<group>"; };
 		807F51C121B7639300D962FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A157FB21B8ECE300B24C4F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		80A157FD21B8ED0B00B24C4F /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		80A157FE21B8ED0B00B24C4F /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80A157FC21B8ECE300B24C4F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				807F51B321B7639200D962FE /* screen-adaptation-demoTests */,
 				807F51BE21B7639200D962FE /* screen-adaptation-demoUITests */,
 				807F519921B7639100D962FE /* Products */,
+				80A157FA21B8ECE300B24C4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +113,8 @@
 				807F519E21B7639100D962FE /* ViewController.h */,
 				807F519F21B7639100D962FE /* ViewController.m */,
 				807F51A121B7639100D962FE /* Main.storyboard */,
+				80A157FD21B8ED0B00B24C4F /* WebViewController.h */,
+				80A157FE21B8ED0B00B24C4F /* WebViewController.m */,
 				807F51A421B7639200D962FE /* Assets.xcassets */,
 				807F51A621B7639200D962FE /* LaunchScreen.storyboard */,
 				807F51A921B7639200D962FE /* Info.plist */,
@@ -130,6 +139,14 @@
 				807F51C121B7639300D962FE /* Info.plist */,
 			);
 			path = "screen-adaptation-demoUITests";
+			sourceTree = "<group>";
+		};
+		80A157FA21B8ECE300B24C4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80A157FB21B8ECE300B24C4F /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +282,7 @@
 				807F51A021B7639100D962FE /* ViewController.m in Sources */,
 				807F51AB21B7639200D962FE /* main.m in Sources */,
 				807F519D21B7639100D962FE /* AppDelegate.m in Sources */,
+				80A157FF21B8ED0B00B24C4F /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
