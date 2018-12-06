@@ -91,7 +91,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kBv-xi-xs2">
-                                <rect key="frame" x="20" y="81" width="374" height="673"/>
+                                <rect key="frame" x="0.0" y="81" width="414" height="673"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -104,6 +104,9 @@
                         <viewLayoutGuide key="safeArea" id="dfP-ow-HjA"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="t9v-yf-3gr"/>
+                    <connections>
+                        <outlet property="myWebView" destination="kBv-xi-xs2" id="Y0m-T9-kqf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dUf-Ye-G3z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
